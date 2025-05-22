@@ -24,7 +24,7 @@ clock = pg.time.Clock()
 
 # Create game window
 screen = pg.display.set_mode((SCREEN_WIDTH + SIDE_PANEL, SCREEN_HEIGHT))
-pg.display.set_caption("Tower Defence Game by Mateusz Majewski")
+pg.display.set_caption("Tower Defence Game")
 
 # Game variables
 game_state = GameState.PLAYING
